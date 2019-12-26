@@ -34,10 +34,10 @@ Namespace Q144523
 			Dim productNameLabel As System.Windows.Forms.Label
 			Dim supplierIDLabel As System.Windows.Forms.Label
 			Dim categoryIDLabel1 As System.Windows.Forms.Label
-			Me.nwindDataSet = New Q144523.nwindDataSet()
-			Me.categoriesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-			Me.categoriesTableAdapter = New Q144523.nwindDataSetTableAdapters.CategoriesTableAdapter()
-			Me.categoriesBindingNavigator = New System.Windows.Forms.BindingNavigator(Me.components)
+            Me.nwindDataSet = New nwindDataSet()
+            Me.categoriesBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+            Me.categoriesTableAdapter = New nwindDataSetTableAdapters.CategoriesTableAdapter()
+            Me.categoriesBindingNavigator = New System.Windows.Forms.BindingNavigator(Me.components)
 			Me.bindingNavigatorMoveFirstItem = New System.Windows.Forms.ToolStripButton()
 			Me.bindingNavigatorMovePreviousItem = New System.Windows.Forms.ToolStripButton()
 			Me.bindingNavigatorSeparator = New System.Windows.Forms.ToolStripSeparator()
@@ -54,8 +54,8 @@ Namespace Q144523
 			Me.categoryNameTextEdit = New DevExpress.XtraEditors.TextEdit()
 			Me.descriptionTextEdit = New DevExpress.XtraEditors.TextEdit()
 			Me.picturePictureEdit = New DevExpress.XtraEditors.PictureEdit()
-			Me.productsTableAdapter = New Q144523.nwindDataSetTableAdapters.ProductsTableAdapter()
-			Me.productsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+            Me.productsTableAdapter = New nwindDataSetTableAdapters.ProductsTableAdapter()
+            Me.productsBindingSource = New System.Windows.Forms.BindingSource(Me.components)
 			Me.productIDSpinEdit = New DevExpress.XtraEditors.SpinEdit()
 			Me.productNameTextEdit = New DevExpress.XtraEditors.TextEdit()
 			Me.supplierIDSpinEdit = New DevExpress.XtraEditors.SpinEdit()
@@ -449,8 +449,8 @@ Namespace Q144523
 
 		Private nwindDataSet As nwindDataSet
 		Private categoriesBindingSource As System.Windows.Forms.BindingSource
-		Private categoriesTableAdapter As Q144523.nwindDataSetTableAdapters.CategoriesTableAdapter
-		Private categoriesBindingNavigator As System.Windows.Forms.BindingNavigator
+        Private categoriesTableAdapter As nwindDataSetTableAdapters.CategoriesTableAdapter
+        Private categoriesBindingNavigator As System.Windows.Forms.BindingNavigator
 		Private bindingNavigatorAddNewItem As System.Windows.Forms.ToolStripButton
 		Private bindingNavigatorCountItem As System.Windows.Forms.ToolStripLabel
 		Private bindingNavigatorDeleteItem As System.Windows.Forms.ToolStripButton
@@ -467,8 +467,8 @@ Namespace Q144523
 		Private categoryNameTextEdit As DevExpress.XtraEditors.TextEdit
 		Private descriptionTextEdit As DevExpress.XtraEditors.TextEdit
 		Private picturePictureEdit As DevExpress.XtraEditors.PictureEdit
-		Private productsTableAdapter As Q144523.nwindDataSetTableAdapters.ProductsTableAdapter
-		Private productsBindingSource As System.Windows.Forms.BindingSource
+        Private productsTableAdapter As nwindDataSetTableAdapters.ProductsTableAdapter
+        Private productsBindingSource As System.Windows.Forms.BindingSource
 		Private productIDSpinEdit As DevExpress.XtraEditors.SpinEdit
 		Private productNameTextEdit As DevExpress.XtraEditors.TextEdit
 		Private supplierIDSpinEdit As DevExpress.XtraEditors.SpinEdit
